@@ -51,7 +51,7 @@ def fetch_weather():
         messagebox.showerror("Error", "Please enter a city name!")
         return
     api_key = "d4e551e5caa31684451260a637d3243f"
-    base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+    base_url = f"your api key"
     try:
         response = requests.get(base_url)
         data = response.json()
